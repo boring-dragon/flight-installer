@@ -1,0 +1,25 @@
+{
+    "name": "jinas/flight-installer",
+    "description": "Flight installer for php flight microframework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Jinas",
+            "email": "j@live.mv"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/console": "~3.0|~4.0"
+
+    },
+
+    "autoload": {
+        "psr-4": {
+            "FlightIN\\": "src"
+        }
+    },
+    "bin": [
+        "flight"
+    ]
+}
